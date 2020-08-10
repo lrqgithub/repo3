@@ -1,0 +1,34 @@
+<view  class="container" style='width:{{winWidth}}px;height:{{winHeight}}px'>
+<view class="top">
+			<view class="look">
+				<span type="" class="iconfont icon-fangdajing" style=""></span>
+				<input type="text" value="" placeholder="请输入商品名称" />
+			</view>
+			<button type="primary" style="background: #FFFFFF;width: 25%;height: 100%;color: #a4a5a5;">搜索</button>
+		</view>
+    <view class="mid" >
+			<view class="left">
+				<scroll-view scroll-y="true" >
+					 <block wx:for="{{leftT}}" wx:key="index" wx:for-index="index" >
+						  <view class="{{selected==index?'active':''}}"  data-index="{{index}}" data-name="{{item.name}}" bindtap="select">
+								{{item.name}}
+						  </view>
+					 </block>
+				</scroll-view>
+			</view>
+      <scroll-view scroll-y="true" >
+			<view class="right">
+				
+        <block wx:for="{{leftR}}" wx:key="index" wx:for-index="index" >
+        <view>
+        <image src="../img/kuaidi.png" mode="widthFix"></image>
+        <text>	{{item.id}}</text>
+        </view>
+				
+        
+				</block>	
+				
+			</view>
+      </scroll-view>
+		</view>
+</view>

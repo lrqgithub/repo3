@@ -1,0 +1,355 @@
+.address {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  /*  */
+}
+.address icon{
+  color: red;
+}
+.sx{
+  display: none;
+}
+.goods {
+			width: 100%;
+		}
+	
+		.banner {
+			width: 100%;
+			height: 540rpx;
+		}
+	
+		.swiper-item image {
+			width: 750rpx;
+			height: 540rpx;
+		}
+	
+		.goods-detail {
+			width: 100%;
+			height: 150rpx;
+			padding: 0 20rpx;
+			box-sizing: border-box;
+			background: #FFFFFF;
+		}
+	
+		.goodsTitle {
+			font-size: 32rpx;
+		}
+	
+		.goodsPrice,
+		.goodsPrice text {
+			font-size: 32rpx;
+			color: red;
+			padding: 15rpx 0rpx;
+		}
+	
+		.originalPrice,
+		.originalPrice text {
+			font-size: 26rpx;
+			color: darkgray;
+		}
+	
+		.sales,
+		.sales text {
+			font-size: 26rpx;
+			color: darkgray;
+			padding: 15rpx 0rpx;
+		}
+	
+		.Delivery {
+			width: 100%;
+			padding: 0 20rpx;
+			box-sizing: border-box;
+			display: flex;
+			height: 77rpx;
+			align-items: center;
+			border-top: solid 1rpx #EFEFEF;
+			border-bottom: solid 1rpx #EFEFEF;
+			background: #FFFFFF;
+	
+		}
+	
+		.address {
+			width: 265rpx;
+			height: 37rpx;
+			display: flex;
+			justify-content: space-between;
+			padding-right: 20rpx;
+			border-right: 1rpx solid #888888;
+		}
+	
+		.address text {
+			color: #888888;
+			font-size: 28rpx;
+		}
+	.contact-btn {
+  display: inline-block;
+  position: absolute;
+  width: 20%;
+  background: salmon;
+    opacity: 0;
+  }
+		.cost,
+		.cost text {
+			font-size: 28rpx;
+			color: #888888;
+			padding: 15rpx 0rpx;
+		}
+	
+		.cost {
+			padding-left: 20rpx;
+		}
+	
+		.ensure {
+			width: 100%;
+			padding: 0 20rpx;
+			box-sizing: border-box;
+			display: flex;
+			height: 77rpx;
+			align-items: center;
+			border-top: solid 1rpx #EFEFEF;
+			border-bottom: solid 1rpx #EFEFEF;
+			background: #FFFFFF;
+		}
+	
+		.ensure view {
+			display: flex;
+			align-items: center;
+			height: 38rpx;
+			padding-right: 10rpx;
+		}
+	
+		.ensure view icon {
+			color: #4CD964;
+		}
+	
+		.ensure view text {
+			font-size: 28rpx;
+			padding-left: 10rpx;
+		}
+	
+		.detailImg {
+			width: 100%;
+			margin-bottom: 80rpx;
+			box-sizing: border-box;
+		}
+	
+		.detailTitle {
+			width: 100%;
+			height: 70rpx;
+			line-height: 70rpx;
+			font-size: 28rpx;
+			text-align: center;
+			box-sizing: border-box;
+		}
+	
+		.detailImg image {
+			width: 750rpx;
+			height: 1396rpx;
+		}
+	
+		.nav {
+			width: 100%;
+			height: 90rpx;
+			display: flex;
+			z-index: 999;
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			background: #FFFFFF;
+			border-top: solid 1rpx #EFEFEF;
+		}
+	
+		.navOne {
+			width: 40%;
+			height: 90rpx;
+			display: flex;
+			justify-content: space-between;
+		}
+	
+		.navOne view {
+			width: 50%;
+			height: 90rpx;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+	
+		.navOne view text {
+			font-size: 22rpx;
+			color: darkgray;
+		}
+	
+		.navTwo {
+			width: 60%;
+			height: 90rpx;
+			display: flex;
+		}
+	
+		.addCart,
+		.buy {
+			width: 50%;
+			height: 90rpx;
+			font-size: 28rpx;
+			color: #FFFFFF;
+			text-align: center;
+			line-height: 90rpx;
+		}
+	
+		.addCart {
+			background: #f29901;
+		}
+	
+		.buy {
+			background: #fe4543;
+		}
+	
+		.popUpsBg {
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.5);
+			position: fixed;
+			top: 0;
+			left: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	
+		.popUps {
+			width: 630rpx;
+			height: 540rpx;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+		}
+	
+		.popUps icon {
+			font-size: 48rpx;
+			color: #FFFFFF;
+		}
+	
+		.popUpsContent {
+			width: 630rpx;
+			height: 388rpx;
+			background: #f5f5f5;
+			border-radius: 10rpx;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+	
+		.popUpsContent text {
+			font-size: 26rpx;
+			color: darkgray;
+			padding: 5rpx 0;
+		}
+		.addGoods{
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.5);
+			position: fixed;
+			top: 0;
+			left: 0;
+			bottom: 90rpx;
+		}
+		.goodsContent{
+			width: 100%;
+			height: 600rpx;
+			position: absolute;
+			bottom: 90rpx;
+			background: #FFFFFF;
+		}
+		.goodsContent image{
+			width: 200rpx;
+			height: 200rpx;
+			position: absolute;left: 35rpx;top: -68rpx;
+		}
+		.goodsProps{
+			width: 100%;
+			height: 160rpx;
+			border-bottom: solid 1rpx #EFEFEF;
+			display: flex;
+			align-items: center;
+			padding: 0 25rpx;
+			box-sizing: border-box;
+		}
+		.null{
+			width: 240rpx;
+			height: 160rpx;
+		}
+		.price{
+			width: 440rpx;
+			height: 90rpx;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.inventory{
+			display: flex;
+			flex-direction: column;
+		}
+		.specification{
+			width: 100%;
+			height: 206rpx;
+			box-sizing: border-box;
+			padding: 0 25rpx;
+			border-bottom: 1rpx solid #EFEFEF;
+		}
+		.specification text{
+			display: block;
+			padding: 42rpx 0;
+			font-size: 26rpx;
+		}
+		.specification .select{
+			width: 120rpx;
+			height: 50rpx;
+			border-radius: 10rpx;
+			color: #FFFFFF;
+			font-size: 26rpx;
+			background: #fe4543;
+			text-align: center;
+			line-height: 50rpx;
+		}
+		.positionCount{
+			width: 100%;
+			height: 50rpx;
+			display: flex;
+			justify-content: flex-end;
+		}
+		.count {
+			width: 200rpx;
+			display: flex;
+			height: 50rpx;
+			justify-content: space-between;
+			/* border: solid 1rpx gainsboro; */
+		}
+		
+		.down,
+		.up {
+			background: gainsboro;
+			height: 50rpx;
+			line-height: 50rpx;
+			width: 50rpx;
+			text-align: center;
+		}
+		
+		.number {
+			width: 85rpx;
+			height: 50rpx;
+			font-size: 26rpx;
+			line-height: 50rpx;
+			text-align: center;
+			background-color: gainsboro;
+		}
+
+	.content {
+
+		overflow-x: hidden;
+		overflow-y: auto;
+		background-color: #efefef;
+
+	}

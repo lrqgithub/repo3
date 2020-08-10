@@ -1,0 +1,145 @@
+.dw:hover{
+	border-radius: 50%;
+	box-shadow: 0px 0px 50px 15px rgba(0,0,0,0.3);
+	transition: box-shadow 0.5s;
+}
+.dw{
+  box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3);
+  border-radius: 25px;
+  background:#ffffff;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 3;
+}
+.dw image{
+display: block;
+width: 40px;
+}
+.palce-holder-nav{
+  background: linear-gradient(to right,#17d6a0, #25bcc5);
+}
+.palce-holder{
+  background: linear-gradient(to right,#17d6a0, #25bcc5);
+   display: flex;
+  flex-flow: row;
+  justify-content:space-between;
+  align-items: center;
+  
+}
+.place_info{
+  color: blue;
+  width: 100%;
+  /* height: 160rpx; */
+  position: fixed;
+  bottom: 0px;
+}
+.icon-houtui{
+margin-left: 5rpx;
+  box-sizing: border-box;
+}
+.icon-saoyisao{
+  margin-right: 190rpx;
+  box-sizing: border-box;
+}
+.content{
+  background:#e6fffc; 
+  overflow-y: auto;
+}
+.top{
+  position: relative;
+z-index: 2;
+  font-size: 25rpx;
+  width: 100%;
+  background:#fff;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 20px 20px -20px #5E5E5E;
+}
+.list_01{
+  padding: 15rpx 0;
+  width: 95%;
+
+display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:1px solid #aaaa;
+  padding-left: 43rpx;
+  box-sizing: border-box;
+}
+.list_left{
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.list_01 icon{
+margin-right: 25rpx;
+}
+.list_left_01{
+  width: 50%;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-right:1px solid #aaaa;
+  padding-left: 49rpx;
+  box-sizing: border-box;
+}
+.list_right_01{
+  width: 50%;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding-left: 49rpx;
+  box-sizing: border-box;
+}
+.list_01_01{
+  padding: 15rpx 0;
+  width: 95%;
+border-bottom:1px solid #aaaa;
+
+display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.list_01_text{
+  
+  width: 95%;
+
+
+display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.list_01_text text{
+  
+height: 80rpx;
+text-align: center;
+line-height:80rpx; 
+}
+.map{
+  position: relative;
+z-index: 0;
+}
+.list_right_01 icon{
+  margin-right: 20rpx;
+}
+.list_left_01 icon{
+  margin-right: 20rpx;
+}

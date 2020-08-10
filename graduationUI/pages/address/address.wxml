@@ -1,0 +1,15 @@
+<view class="content" style='width:{{winWidth}}px;height:{{winHeight}}px'>
+
+  <view class="map">
+    <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" style="width:100%; height:{{winHeight}}px" scale="14" show-location="true" markers="{{markers}}" bindmarkertap="makertap" show-compass show-location></map>
+  </view>
+  <view class="place_info">
+    <text>{{placeData.title}}</text>
+    <text>{{placeData.address}}</text>
+    <text>{{placeData.telephone}}</text>
+  </view>
+  <view class="dw">
+<image src="../img/dingwei.png" mode="widthFix" bindtap="dingw"></image>
+
+  </view>
+</view>

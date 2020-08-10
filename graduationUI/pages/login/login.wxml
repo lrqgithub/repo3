@@ -1,0 +1,34 @@
+<!--pages/login/login.wxml-->
+
+<view  class="loginbg" style='width:{{winWidth}}px;height:360rpx'>
+<     image src="../img/logo.png" mode="widthFix"></image>
+</view>
+
+<form bindsubmit="login">
+	<view class="login_fm">
+		
+		<view>
+			<icon class="iconfont icon-wode"></icon>
+			<input type="text" name="userCode" value="" placeholder="请输入用户名"></input>
+		</view>
+    <view>
+			<icon class="iconfont icon-xuanze"></icon>
+			<picker mode="selector" range="{{college}}" range-key="dname" bindchange="getCollege">
+				<input type="text" value="{{college[collegeIndex].dname}}" disabled placeholder="请选择商家或用户"></input>
+				<input name="college" value="{{college[collegeIndex].id}}" style="display:none;"></input>
+			</picker>
+		</view>
+		<view>
+			<icon class="iconfont icon-mima"></icon>
+			<input password name="pwd" value="" placeholder="请输入密码"></input>
+		</view>
+		<button form-type="submit">登录</button>
+	</view>
+</form>
+<view class="next" bindtap="register">
+			<text></text>
+      <text>立即注册</text>
+</view>
+
+
+<view class="copyRight">小吕-包裹管理系统</view>

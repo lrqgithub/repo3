@@ -1,0 +1,124 @@
+.tijiao{
+		color: #FFFFFF;
+		background: red;
+		width: 45%;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+	}
+	.button{
+		padding-left: 20rpx;
+		box-sizing: border-box;
+		height: 50px;
+		background: #FFFFFF;
+		position: fixed;
+		bottom: 0px;
+		width: 100%;
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.dingdan_01 image{
+		display: block;
+		width: 99px;
+		height: 99px;
+		margin-right: 20rpx;
+		box-sizing: border-box;
+	}
+	.dingdan_text{
+		width: 100%;
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.dingdan_right{
+		width: 70%;
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	
+	.dingdan_01{
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 20rpx 20rpx;
+		width: 100%;
+		border-bottom: 2px solid #efefef;
+		box-sizing: border-box;
+	}
+	.bt{
+		padding: 20rpx 20rpx;
+		width: 100%;
+		border-bottom: 2px solid #efefef;
+		box-sizing: border-box;
+	}
+	.dingdan{
+		margin-top: 30rpx;
+		width: 100%;
+		background: #FFFFFF;
+		display: flex;
+		flex-flow: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.icon-iconfontxiangxia1copy19{
+		position: absolute;
+		right: 2px;
+		bottom: 20rpx;
+	}
+	.top_01{
+		margin: 20rpx 0;
+		width: 96%;
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.top{
+		margin-top: 20rpx;
+		width: 96%;
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.dingdan_03{
+
+
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 20rpx 20rpx;
+		width: 100%;
+		border-bottom: 2px solid #efefef;
+		box-sizing: border-box;
+	}
+	.address{
+		display: flex;
+		flex-flow: wrap;
+		justify-content: center;
+		align-items: center;
+		background: #FFFFFF;
+		position: relative;
+	}
+	.content {
+	
+		overflow-x: hidden;
+		overflow-y: auto;
+		background-color: #efefef;
+	
+	}
+
+	.content {
+
+		overflow-x: hidden;
+		overflow-y: auto;
+		background-color: #efefef;
+
+	}

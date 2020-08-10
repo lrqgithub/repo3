@@ -1,0 +1,42 @@
+<view class="content" style='width:{{winWidth}}px;height:{{winHeight}}px'>
+		<view class="address" bindtap="tiaozhuan">
+			<view class="top" >
+				<text>收货人：吕瑞强</text>
+				<text>18531873026</text>
+			</view>
+			<view class="top_01">
+				<text style="font-size: 36rpx;">收货地址：河北石家庄桥西区红旗大街宫北路11号河北工程技术学院</text>
+			</view>
+			<icon type="" class="iconfont icon-iconfontxiangxia1copy19"></icon>
+		</view>
+		<view class="dingdan">
+			<view class="bt">
+				<text>平台自营</text>
+			</view>
+			
+			<view class="dingdan_01">
+				<image src="../img/kuaidi.png" mode=""></image>
+				<view class="dingdan_right">
+					<text style="font-size: 30rpx;">{{biaoti}}</text>
+					<text style="font-size: 22rpx; color: #8c8c8c;">规格：默认</text>
+					<view class="dingdan_text">
+						<text style="font-size: 22rpx; color: #8c8c8c;">x{{num}}</text>
+						<text style="color: red;">￥{{pice}}.00</text>
+						
+					</view>
+				</view>
+			</view>
+			<view class="dingdan_03">
+				<text>优惠卷</text>
+				<text>当前可用优惠卷</text>
+			</view>
+			<view class="dingdan_03">
+				<text>运费</text>
+				<text style="color: red;">￥0</text>
+			</view>
+		</view>
+	<view class="button">
+		<text>总计：￥{{pice*num}}. 00</text>
+		<text class="tijiao" bindtap="tiaozhuan_car">提交</text>
+	</view>
+</view>

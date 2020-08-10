@@ -1,0 +1,88 @@
+<!--index.wxml-->
+<view class="container" style='width:{{winWidth}}px;height:{{winHeight}}px'>
+
+  <view class="indexbg">
+   <swiper   mode="widthFix" autoplay="{{true}}" style='height:{{Hei}}'>
+   <block wx:for="{{3}}" wx:key="index" wx:for-index="index">
+      <swiper-item >
+        <image src="../img/indexbg.png" mode="widthFix" bindload='imgH'></image>
+      </swiper-item>
+      </block>
+      
+    </swiper>
+    
+  </view>
+  <view class="nav">
+    <view bindtap="showPopup">
+      <icon style="color:#31f6f6;" class="iconfont icon-zuojiantou_huaban"></icon>
+      <text>入库</text>
+    </view>
+     <view bindtap="showPopups">
+      <icon style="color:#1a7bdc;" class="iconfont icon-youjiantou_huaban"></icon>
+      <text>入库</text>
+    </view>
+     <view bindtap="tzcar">
+      <icon style="color:#2b95ff; " class="iconfont icon-MBEfenggeduosetubiao-gouwuche"></icon>
+      <text>购物车</text>
+    </view>
+    
+  </view>
+</view >
+<van-popup show="{{ show }}" bind:close="onClose">
+<van-cell-group>
+<form bindsubmit="login">
+<view class="rk">
+  <van-field
+    name="hjh"
+    placeholder="请输入货架号"
+    border="{{ false }}"
+  />
+  <van-field
+   name="chid"
+    placeholder="请输入请输入层号"
+    border="{{ false }}"
+  />
+  <van-field
+   name="bmid"
+    placeholder="请输入编码"
+    border="{{ false }}"
+  />
+  
+  
+
+  <van-button round type="primary" size="large" form-type="submit"   bindtap="rk">入库</van-button>
+  </view>
+  </form>
+</van-cell-group>
+
+
+</van-popup>
+<van-popup show="{{ shows }}" bind:close="onCloses">
+<van-cell-group>
+<form bindsubmit="logins">
+<view class="rk">
+  <van-field
+    name="hjh"
+    placeholder="请输入货架号"
+    border="{{ false }}"
+  />
+  <van-field
+   name="chid"
+    placeholder="请输入请输入层号"
+    border="{{ false }}"
+  />
+  <van-field
+   name="bmid"
+    placeholder="请输入编码"
+    border="{{ false }}"
+  />
+  
+  
+
+  <van-button round type="primary" size="large" form-type="submit"   bindtap="rk">出库</van-button>
+  </view>
+  </form>
+</van-cell-group>
+
+
+</van-popup>

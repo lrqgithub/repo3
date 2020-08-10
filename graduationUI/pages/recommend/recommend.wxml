@@ -1,0 +1,33 @@
+<view class="content" style='width:{{winWidth}}px;height:{{winHeight}}px'>
+		<view class="top">
+			<view class="look">
+				<span type="" class="iconfont icon-fangdajing"></span>
+				<input type="text" value="" placeholder="请输入商品名称" />
+			</view>
+			<button type="primary" style="background: #FFFFFF;	width: 25%;height: 80%;color: #a4a5a5;">搜索</button>
+		</view>
+<view class="product">
+
+			<block  wx:for="{{list}}" wx:key="index" wx:for-index="index" >
+				<view class="product_" bindtap="tiaozhuan">
+					<image src="../img/kuaidi.png" mode=""></image>
+					<text style="margin: 10rpx 0;font-size: 32rpx;">{{item.shop}}</text>
+					<view class="price">
+						<text style="color: red;">￥{{item.price}}</text>
+						<icon style="font-size: 20px;color: red;" type="" class="iconfont icon-gouwuchezhengpin"></icon>
+					</view>
+				</view>				
+			</block>
+			
+		</view>
+
+
+
+
+
+
+
+
+
+
+</view>

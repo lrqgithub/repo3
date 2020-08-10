@@ -1,0 +1,142 @@
+.icon-duihao{
+  color: red;
+}
+.xianshi{
+  display: none;
+}
+.loop{
+		margin-bottom: 20rpx;
+	}
+  .biaoti text{
+    margin-bottom: 20rpx;
+    box-sizing: border-box;
+  }
+	.biaoti {
+		padding: 10rpx 10rpx;
+		box-sizing: border-box;
+		width: 100%;
+		display: flex;
+		flex-flow: row;
+		justify-content: flex-start;
+		align-items: center;
+		background: #FFFFFF;
+
+		border-bottom: 1px solid #999496;
+		
+	}
+
+	.icon-xuanze {
+		font-size: 16px;
+		margin: 0 6px;
+		box-sizing: border-box;
+	}
+
+	.list {
+		width: 100%;
+
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		align-items: center;
+		background: #FFFFFF;
+		border-bottom: 1px solid #999496;
+		padding: 0.5rem 0.5rem;
+		box-sizing: border-box;
+	}
+
+	.list image {
+		width: 99px;
+		height: 99px;
+		margin: 0rem 0.5rem;
+		box-sizing: border-box;
+	}
+
+
+	.list_left {
+		flex: 1;
+		height: 100px;
+		display: flex;
+		flex-flow: column;
+		justify-content: space-between;
+	}
+
+	.red {
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		color: #E80C38;
+		
+	}
+
+	.number {
+		height: 25px;
+/* 		border: 1px solid#DCDCDC; */
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+
+
+	}
+
+	.icon-jian {
+		text-align: center;
+		width: 25px;
+		margin-right: 5px;
+
+	}
+
+	.icon-jia {
+		text-align: center;
+		width: 25px;
+		margin-left: 5px;
+
+	}
+
+	.bottom_info {
+		padding: 0.5rem 0.5rem;
+		box-sizing: border-box;
+		width: 100%;
+		height: 56px;
+		position: fixed;
+		bottom: 0rpx;
+		background: #FFFFFF;
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.settlement {
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.price {
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+		align-items: center;
+	}
+.check text{
+	color: #FFFFFF;
+}
+	.check {
+		width: 130px;
+		height: 46px;
+		border-radius: 20px;
+		color: #eb6100;
+
+		background: #E80C38;
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.content {
+		overflow-x: hidden;
+		overflow-y: auto;
+		background-color: #efefef;
+	}

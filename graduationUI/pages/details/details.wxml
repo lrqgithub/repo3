@@ -1,0 +1,118 @@
+<view class="content" style='width:{{winWidth}}px;height:{{winHeight}}px'>
+		<view class="goods">
+					<swiper class="banner"  indicator-dots="true" indicator-active-color="#406565">
+						<swiper-item>
+							<view class="swiper-item">
+								<image src="../img/kuaidi.png"></image>
+							</view>
+						</swiper-item>
+						<swiper-item>
+							<view class="swiper-item">
+								<image src="../img/kuaidi.png"></image>
+							</view>
+						</swiper-item>
+						<swiper-item>
+							<view class="swiper-item">
+								<image src="../img/kuaidi.png"></image>
+							</view>
+						</swiper-item>
+						
+					</swiper>
+					<view class="goods-detail">
+						<text class="goodsTitle">{{biaoti}}</text>
+						<view class="goodsPrice">¥<text>{{pice}}.00</text></view>
+						<view class="originalPrice">原价:<text>¥999.00</text></view>
+
+					</view>
+					<view class="Delivery">
+						<view class="address">
+							<text>发货</text>
+							<icon style="margin-bottom: 13rpx;" type="" class="icon iconfont icon-dizhi"></icon>
+							<text>福建泉州</text>
+						</view>
+						<view class="cost">
+							快递：<text>0.00</text>
+						</view>
+					</view>
+					<view class="ensure">
+						<view>
+							<icon style="margin-bottom: 13rpx;" type="" class="icon iconfont icon-duihao"></icon>
+							<text>正品保障</text>
+						</view>
+						<view>
+							<icon style="margin-bottom: 13rpx;" type="" class="icon iconfont icon-duihao"></icon>
+							<text>极速发货</text>
+						</view>
+					</view>
+				</view>
+				<!-- <view class="detailImg">
+					<view class="detailTitle">商品详情</view>
+					<image src="../../image/detail.jpg" mode=""></image>
+				</view> -->
+				<view class="nav">
+					<view class="navOne">
+						<view >
+							<icon type="" class="icon iconfont icon-kefu"></icon>
+							<text>客服</text>
+              <button class='contact-btn' open-type='contact'>a</button> 
+						</view>
+						<view bindtap="gocar">
+							<icon type="" class="icon iconfont icon-gouwuche"></icon>
+							<text>购物车</text>
+						</view>
+					</view>
+					<view class="navTwo">
+						<view class="addCart" bindtap="adCart">
+							加入购物车
+						</view>
+						<view class="buy" bindtap="goBuy">
+							直接购买
+						</view>
+					</view>
+				</view>
+				<view class="{{upStatus==true?'popUpsBg':' sx'}}" >
+					<view class="popUps">
+						<view class="popUpsContent">
+							<text style="font-size: 32rpx;color: #333333;">茶都服务中心</text>
+							<text>致力于为您提供贴心服务</text>
+							<text>服务电话：123456789</text>
+							<text>电话接待中心：9:00~15:00</text>
+						</view>
+						<icon type="" class="icon iconfont icon-ziyuan1" bindtap="calls"></icon>
+					</view>
+				</view>
+				<view  class="{{buyStatus==true?'addGoods':' sx'}}" >
+					<view class="goodsContent">
+						<image src="../img/kuaidi.png" mode=""></image>
+						<view class="goodsProps">
+							<view class="null"></view>
+							<view class="price">
+								<view class="inventory">
+									<view style="font-size: 28rpx;color: red;">¥<text>{{pice*num}}.00</text></view>
+									<view style="font-size: 22rpx;">库存：<text>999件</text></view>
+								</view>
+								
+								<icon type="" class="icon iconfont icon-ziyuan1" bindtap="close"></icon>
+							</view>
+						</view>
+						<view class="specification">
+							<text>规格</text>
+							<view class="select">默认</view>
+						</view>
+						<view class="specification">
+							<text>规格</text>
+							<view class="positionCount">
+								<view class="count">
+									<view class="down" bindtap="countDown">-</view>
+									<view class="number">{{num}}</view>
+									<view class="up" bindtap="countAdd">+</view>
+								</view>
+							</view>
+							
+						</view>
+					</view>
+					
+				</view>
+	
+	
+</view>

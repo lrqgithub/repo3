@@ -1,0 +1,88 @@
+<view class="content" :style="{width: winWidth+'px', height: winHeight+'px'}">
+		<view class="top">
+
+			<view class="toplist">
+				<view class="topleft">
+					<image src="../img/touxiang.png" mode=""></image>
+					<text>LRQ</text>
+				</view>
+				
+				<view class="topright">
+					<span style="color: #FFFFFF; font-size: 37rpx;"  class="iconfont icon-zhurenyishitubiao" ></span>
+					<text style="color: #FFFFFF;">银卡会员</text>
+					<span style="color: #FFFFFF;" class="iconfont icon-iconfontxiangxia1copy19"></span>
+				</view>
+			</view>
+		</view>
+		<view class="zhong">
+			<view class="zhong_01">
+				<text style="font-size: 40rpx;">我的订单</text>
+				<view class="zhong_01r">
+					<text style="font-size: 30rpx; color: #999999;">查看全部订单</text>
+					<span style="color: #999999;" class="iconfont icon-iconfontxiangxia1copy19"></span>
+				</view>
+			</view>
+			<view class="zhong_02">
+				<view class="zhong_02z">
+					<span style=" font-size: 66rpx; color: #333333;" class="iconfont icon-fukuan"></span>
+					<text style=" font-size: 33rpx ;">待付款</text>
+				</view>
+				<view class="zhong_02z">
+					<span style=" font-size: 66rpx; color: #333333;" class="iconfont icon-daifahuo1"></span>
+					<text style=" font-size: 33rpx ;">代发货</text>
+				</view>
+				<view class="zhong_02z">
+					<span style=" font-size: 66rpx; color: #333333;" class="iconfont icon-ziyuan"></span>
+					<text style=" font-size: 33rpx ">待收货</text>
+				</view>
+				<view class="zhong_02z">
+					<span style=" font-size: 66rpx; color: #333333;" class="iconfont icon-icon-anxinqiao-1"></span>
+					<text style=" font-size: 33rpx ">待评价</text>
+				</view>
+				<view class="zhong_02z">
+					<span style=" font-size: 66rpx; color: #333333;" class="iconfont icon-tuikuan"></span>
+					<text style="font-size: 33rpx ">退款/退货</text>
+				</view>
+			</view>
+		</view>
+		<view class="">
+			<view class="zhong_03">
+				<view class="zhong_03r">
+					<span style="font-size: 20rpx; line-height: 35rpx;" class="iconfont icon-xingzhuang"></span>
+					<text style="font-size: 35rpx; ">会员中心</text>	
+				</view>
+				<span style="color: #999999;" class="iconfont icon-iconfontxiangxia1copy19"></span>
+			</view>
+			<view class="zhong_03">
+				<view class="zhong_03r"bindtap="address">
+					<span style="font-size: 30rpx; line-height: 35rpx;" class="iconfont icon-dizhi"></span>
+					<text style="font-size: 35rpx; " >我的地址</text>	
+				</view>
+				<span style="color: #999999;" class="iconfont icon-iconfontxiangxia1copy19"></span>
+			</view>
+      
+
+
+ <view class="zhong_03">
+
+				<view class="zhong_03r">
+					<span style="font-size: 30rpx; line-height: 35rpx;" class="iconfont icon-wode-guanyuwomen"></span>
+					<text style="font-size: 35rpx; ">联系我们</text>	
+				</view>
+				<span style="color: #999999;" class="iconfont icon-iconfontxiangxia1copy19"></span>
+         <button class='contact-btn' open-type='contact'>a</button> 
+			</view>
+
+
+		</view>
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	</view>

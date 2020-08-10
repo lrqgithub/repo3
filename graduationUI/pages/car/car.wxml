@@ -1,0 +1,65 @@
+<view class="content" style='width:{{winWidth}}px;height:{{winHeight}}px'>
+		<view>
+			
+
+			<view class="loop">
+				<view class="biaoti">
+					<icon type="" class="{{yanzheng==true?'iconfont icon-yuanquan':'iconfont icon-duihao'}}"   bindtap="radi"></icon>
+					<text style=" margin-left: 10rpx; ">
+						小吕商店
+					</text>
+				</view>
+         <block wx:for="{{list}}" wx:key="index" wx:for-index="index" >
+				<view class="list">
+					<icon type="" class="{{item.selected==true?'iconfont icon-yuanquan':'iconfont icon-duihao'}}" data-index="{{index}}" bindtap="radios"></icon>
+				
+					<image src="../img/kuaidi.png"></image>
+					<view class="list_left">
+						<text style="font-size: 14px;">{{item.title}}</text>
+						<view class="red">￥{{item.price}}
+						<view class="number">
+							<icon type="" class="iconfont icon-jian" style="color:#999;background:#ecebeb; line-height: 25px;" data-index="{{index}}" bindtap="jian"></icon>
+							<text style="width:45px; color: #000000; background:#ecebeb; text-align: center; line-height: 25px;">{{item.number}}</text>
+							<icon type="" class="iconfont icon-jia" style="color:#999;background:#ecebeb; line-height: 25px;" data-index="{{index}}" bindtap="add"></icon>
+						</view>
+						</view>
+					</view>
+					
+
+
+				</view>
+        </block>
+			</view>
+		
+		</view>
+	
+	<view class="bottom_info">
+		<view>
+			<icon type="" class="{{all==true?'iconfont icon-yuanquan':'iconfont icon-duihao'}}" bindtap="chall"></icon>
+			<text style=" margin-left: 10rpx">全选</text>
+		</view>
+
+		<view class="settlement">
+			<view class="total">
+				<view class="price">
+					<text>合计：</text>
+					<text class="red">￥{{prices}}.00</text>
+				</view>
+			</view>
+			<view class="check">
+				<text>去结算</text>
+				<text>（{{number}}）</text>
+			</view>
+		</view>
+	</view>
+
+
+
+
+
+
+
+
+
+
+	</view>
